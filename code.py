@@ -8,7 +8,7 @@ import google.generativeai as genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Set up environment (replace with your actual Gemini API key)
-api_key = os.environ.get("GOOGLE_API_KEY", "")
+api_key = os.environ.get("GOOGLE_API_KEY", "your_api_key")
 if api_key:
     genai.configure(api_key=api_key)
     # Initialize Gemini model - using direct API to avoid compatibility issues
