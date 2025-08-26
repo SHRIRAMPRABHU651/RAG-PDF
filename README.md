@@ -154,6 +154,7 @@ streamlit run app.py
 
 ---
 
+
 ## 🔐 Environment Variable
 
 Set your API key as an environment variable:
